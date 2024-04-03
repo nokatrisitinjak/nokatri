@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Page</title>
+	<style>
+		body {
+			background-color: #C7D3D4FF;
+		}
+		.form-container {
+			background-color: #EEB7B7;
+			border-radius: 10px;
+			padding: 20px;
+			width: 300px;
+			margin: auto;
+			margin-top: 50px;
+		}
+		input[type=text], input[type=password] {
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+		button {
+			background-color: #4CAF50;
+			color: white;
+			padding: 14px 20px;
+			margin: 8px 0;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<div class="form-container">
+		<h2>Login</h2>
+		<form>
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username" maxlength="30" required>
+
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" maxlength="30" required>
+
+			<button type="submit">Login</button>
+		</form>
+	</div>
+</body>
+</html>
+
